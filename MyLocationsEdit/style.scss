@@ -1,0 +1,556 @@
+@font-face {
+  font-family: 'Montserrat-Regular';
+  src: url('../../../../../static/fonts/Montserrat-Regular.ttf')
+    format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Montserrat-Light';
+  src: url('../../../../../static/fonts/Montserrat-Light.ttf')
+    format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Montserrat-Bold';
+  src: url('../../../../../static/fonts/Montserrat-Bold.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+.locations_edit_wrapper {
+  max-width: 1170px;
+  padding: 10px 0 40px 0;
+  margin: 48px auto 0px;
+  background-color: #ffffff;
+  justify-content: center;
+  width: 90%;
+
+  .locations_edit_top_block {
+    width: 83%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+    .locations_edit_top_block_left {
+      display: flex;
+      flex-direction: column;
+      width: 38%;
+      margin: 0;
+
+      .about-space-edit {
+        height: auto;
+      }
+
+      label {
+        font-family: 'Montserrat-Regular';
+        font-size: 15px;
+        font-weight: normal;
+        font-style: normal;
+        font-stretch: normal;
+        line-height: normal;
+        letter-spacing: normal;
+        color: #838383;
+        padding-left: 15px;
+        margin-bottom: 7px;
+        margin-top: 20px;
+      }
+
+      input {
+        font-family: 'Montserrat-Regular';
+        font-size: 18px;
+        font-weight: normal;
+        font-style: normal;
+        font-stretch: normal;
+        line-height: normal;
+        letter-spacing: normal;
+        //color: #9a9a9a;
+      }
+
+      > div {
+        height: 54px;
+        margin: 0;
+        //overflow: hidden;
+        div {
+          fieldset {
+            //border-color: rgba(211, 211, 211, 0.75);
+          }
+        }
+      }
+
+      .selects_in_form_in_Edit_Locations {
+        height: 56px;
+        border: 1px solid rgba(0, 0, 0, 0.23) !important;
+        border-radius: 3px;
+        background: transparent url('../../../../../static/images/pathmin.png')
+          no-repeat right center !important;
+
+        > div {
+          height: 100%;
+          padding-top: 0;
+          padding-bottom: 0;
+
+          > div {
+            height: 100%;
+            padding-top: 0;
+            padding-bottom: 0;
+          }
+        }
+
+        svg {
+          display: none;
+        }
+      }
+
+      .inputs_in_row {
+        margin: 0;
+        // padding: 0;
+        display: flex;
+        flex-direction: column;
+
+        h6 {
+          width: 100%;
+          font-family: 'Montserrat-Regular';
+          font-size: 15px;
+          font-weight: normal;
+          font-style: normal;
+          font-stretch: normal;
+          line-height: normal;
+          letter-spacing: normal;
+          color: #838383;
+          margin: 20px 0;
+        }
+
+        div {
+          display: flex;
+          flex-direction: row;
+          justify-content: space-between;
+
+          div {
+            flex-direction: column;
+            width: 48%;
+
+            label {
+              margin: 0;
+              padding: 0;
+              margin-bottom: 7px;
+            }
+
+            div {
+              margin: 0;
+              width: 100%;
+
+              input {
+                width: 80%;
+              }
+            }
+          }
+        }
+      }
+    }
+
+    .locations_edit_top_block_right {
+      display: flex;
+      flex-direction: column;
+      width: 38%;
+      margin: 0;
+      //justify-content: space-between;
+
+      label {
+        display: flex;
+        // flex-direction: row-reverse;
+        // margin: 30px 0;
+        font-family: 'Montserrat-Regular';
+        font-size: 15px;
+        font-weight: normal;
+        font-style: normal;
+        font-stretch: normal;
+        line-height: normal;
+        letter-spacing: normal;
+        color: #838383;
+        padding-left: 15px;
+        margin-bottom: 5px;
+        margin-top: 20px;
+
+        > span:nth-child(2) {
+          font-family: 'Montserrat-Regular';
+          font-size: 18px;
+          font-weight: normal;
+          font-style: normal;
+          font-stretch: normal;
+          line-height: normal;
+          letter-spacing: normal;
+          color: #4c4c4c;
+          text-align: left;
+          width: 80%;
+        }
+
+        > span:first-child {
+        }
+      }
+      .number_of_bathrooms {
+        margin-bottom: 4px;
+        margin-top: 17px;
+      }
+      .number_of_parking_spaces {
+        margin-top: 18px;
+      }
+
+      > div {
+        height: 59px;
+        border-radius: 4px;
+        background-color: #ffffff;
+        margin-top: 0;
+        margin-bottom: 0;
+        width: 100%;
+      }
+
+      .selects_in_form_in_Edit_Locations {
+        border: 2px solid rgba(211, 211, 211, 0.75) !important;
+
+        > div {
+          height: 100%;
+          padding-top: 0;
+          padding-bottom: 0;
+          overflow: hidden;
+
+          > div {
+            align-items: center;
+            font-family: 'Montserrat-Regular';
+            font-size: 18px;
+            font-weight: normal;
+            font-style: normal;
+            font-stretch: normal;
+            line-height: normal;
+            letter-spacing: normal;
+            //color: #61ca41;
+            display: flex;
+            //width: 92%;
+            height: 100%;
+            padding-top: 0;
+            padding-bottom: 0;
+            padding-left: 12px;
+            background: transparent
+              url('../../../../../static/images/pathmin.png') no-repeat right
+              center !important;
+          }
+        }
+
+        svg {
+          display: none;
+        }
+      }
+      input {
+        padding-left: 12px;
+        font-family: 'Montserrat-Regular';
+        font-size: 18px;
+        font-weight: normal;
+        font-style: normal;
+        font-stretch: normal;
+        line-height: normal;
+        letter-spacing: normal;
+      }
+    }
+  }
+
+  .locations_edit_center_activities_block {
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: column;
+
+    > div {
+      width: 83%;
+      margin: 0 auto;
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      // align-items:
+
+      fieldset {
+        //border-color: rgba(211, 211, 211, 0.75);
+      }
+      label {
+        margin-top: 40px;
+        width: 54%;
+        margin-right: 0;
+        margin-left: 0;
+        display: flex;
+        flex-direction: row-reverse;
+        justify-content: space-between;
+
+        > span:nth-child(2) {
+          font-family: 'Montserrat-Regular';
+          font-size: 18px;
+          font-weight: normal;
+          font-style: normal;
+          font-stretch: normal;
+          line-height: normal;
+          letter-spacing: normal;
+          color: #4c4c4c;
+          width: 90% !important;
+        }
+
+        > span:first-child {
+        }
+      }
+      // label:first-child {
+      //   margin-top: 25px;
+      // }
+
+      > div {
+        width: 38%;
+        margin-top: 40px;
+        height: 54px;
+
+        div {
+          font-size: 18px;
+          font-family: Montserrat-Regular;
+        }
+      }
+
+      .first_interests {
+        margin-top: 20px !important;
+      }
+    }
+
+    p {
+      font-family: 'Montserrat-Bold';
+      font-size: 18px;
+      //font-weight: bold;
+      font-style: normal;
+      font-stretch: normal;
+      line-height: normal;
+      letter-spacing: normal;
+      color: #4c4c4c;
+      width: 40%;
+      margin-left: 62%;
+      margin-bottom: 0;
+      margin-top: 40px;
+    }
+  }
+
+  .host-locations-alerts {
+    font-size: 16px;
+    font-family: 'Montserrat-Regular';
+    text-align: center;
+    margin-top: 20px;
+  }
+
+  .locations_edit_bottom_block_inner {
+    width: 35% !important;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+    margin-top: 25px;
+    button {
+      width: 40% !important;
+      height: 45px;
+      span {
+        font-family: 'Montserrat-Bold';
+        font-size: 18px;
+        font-weight: bold;
+        font-style: normal;
+        font-stretch: normal;
+        line-height: normal;
+        letter-spacing: normal;
+        text-align: center;
+        color: #ffffff;
+        text-transform: none;
+      }
+    }
+    .locations_edit_bottom_block_inner_close_button {
+      box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.26),
+        0 2px 10px 0 rgba(0, 0, 0, 0.16);
+      background-color: #9a9a9a;
+    }
+  }
+}
+
+.locations_edit_center_block {
+  margin-top: 31px;
+  ul {
+    width: 86%;
+    padding: 0;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+
+    li {
+      position: relative;
+      width: 170px;
+      height: 170px;
+      margin: 15px;
+
+      img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+      }
+
+      form {
+        width: 100% !important;
+        height: 100% !important;
+        background: transparent
+          url('../../../../../static/images/emptyImgField.png') no-repeat center
+          center !important;
+
+        .fileInput {
+          color: transparent;
+          width: 100%;
+          height: 100%;
+          opacity: 0;
+          cursor: pointer;
+        }
+
+        div {
+          width: 100%;
+          height: 100%;
+          background: transparent
+            url('../../../../../static/images/emptyImgField.png') no-repeat
+            center center !important;
+
+          input {
+            padding: 0;
+            width: 100% !important;
+            height: 100% !important;
+            opacity: 0 !important;
+            color: transparent;
+            background-color: transparent;
+          }
+        }
+      }
+      .hiden_delete_button {
+        position: absolute;
+        top: 0px;
+        right: 0;
+        height: 20px;
+        width: 20px;
+        opacity: 0;
+        background: #ffffff url('../../../../../static/images/croas-delete.png')
+          no-repeat center center;
+        cursor: pointer;
+      }
+    }
+  }
+}
+//
+.img_wrapper_in_upload:hover .hiden_delete_button {
+  opacity: 1;
+}
+.img_wrapper_in_upload {
+  img {
+    height: 100%;
+    width: 100%;
+    cursor: pointer;
+  }
+}
+
+.locations_edit_wrapper
+  .locations_edit_top_block
+  .locations_edit_top_block_right
+  .not-green
+  > div
+  > div {
+  color: #4c4c4c;
+}
+
+.locations_edit_top_block
+  .locations_edit_top_block_left
+  .please_set_up_a_fee_edit_location_sa {
+  margin-top: 20px;
+
+  legend {
+    font-size: 15px;
+    color: #838383;
+    font-family: Montserrat-Regular;
+    padding-bottom: 3px;
+    padding-top: 2px;
+  }
+
+  > div {
+    label {
+      margin: 0px;
+      padding-left: 0px;
+      padding-top: 5px;
+      padding-bottom: 5px;
+
+      .locations_edit_fee_custom_input {
+        height: 54px;
+        margin-bottom: 0px;
+      }
+
+      > span {
+        padding-left: 0px;
+        padding-top: 5px;
+        padding-bottom: 5px;
+      }
+
+      span:nth-child(2) {
+        font-size: 16px;
+        color: #4c4c4c;
+        font-family: Montserrat-Regular;
+      }
+    }
+  }
+}
+
+.locations_edit_price_title {
+  font-family: Montserrat-Bold;
+  font-size: 18px;
+  color: #4c4c4c;
+  padding-right: 33%;
+  margin-bottom: 25px;
+  text-align: right;
+}
+
+.super_admin_locations_edit_buttons {
+  display: flex;
+  justify-content: center;
+  margin-top: 30px;
+  height: 54px;
+
+  button {
+    width: 170px;
+    margin-right: 30px;
+    font-size: 18px;
+    font-family: Montserrat-Bold;
+    text-transform: capitalize;
+  }
+
+  button:nth-child(1) {
+    color: white;
+    background-color: #9a9a9a;
+  }
+  .manage-tags-button {
+    color: #d52027;
+    background-color: white;
+    border: 2px solid #d52027;
+  }
+}
+
+.locations_edit_center_block ul li .upload_sa_locations input {
+  background-color: #d8d8d8;
+  height: 100%;
+  cursor: pointer;
+  background: transparent url('../../../../../static/images/emptyImgField.png')
+    no-repeat center center;
+}
+
+.locations_edit_center_block ul li:hover {
+  cursor: pointer;
+}
+
+.locations_edit_center_block ul li:hover .hiden_delete_button {
+  opacity: 1;
+}
+
+.locations_edit_bottom_block .edit-warning {
+  text-align: center;
+  font-family: Montserrat-Regular;
+  font-size: 16px;
+  margin-top: 20px;
+}
